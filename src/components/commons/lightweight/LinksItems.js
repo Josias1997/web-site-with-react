@@ -5,7 +5,7 @@ const LinksItems = props => {
         <ul className = "list-unstyled text-small">
             {props.values.map((item, index) => (
                 <li key = {index}>
-                    <a href = "https://google/com" className = "text-muted">{item}</a>
+                    <a href = "https://github.com/Josias1997/web-site-with-react" className = "text-muted">{item}</a>
                 </li>
             ))}
         </ul>

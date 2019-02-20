@@ -9,13 +9,13 @@ const Nav = props => {
             <nav className = "my-2 my-md-0 mr-md-3">
                 {
                     navItems.map((item, index) => (
-                        <a href = "https://www.google.com/" className = "p-2 text-dark" key = {index}>
+                        <a href = "https://github.com/Josias1997/web-site-with-react" className = "p-2 text-dark" key = {index}>
                             {item}
                         </a>
                     ))
                 }
             </nav>
-            <a href = "https://www.google.com/" className= "btn btn-outline-primary">
+            <a href = "https://github.com/Josias1997/web-site-with-react" className= "btn btn-outline-primary">
                 {navLinkValue}
             </a>
         </div>
