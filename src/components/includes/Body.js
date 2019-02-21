@@ -30,7 +30,7 @@ class Body extends React.Component {
                                 unity = {priceCard.unity}
                                 items = {priceCard.items}
                                 buttonValue = {priceCard.buttonValue}
-                                buttonStyle = {(index === 0) ? "btn btn-lg btn-clock btn-outline-primary": "btn btn-lg btn-clock btn-primary"}
+                                buttonStyle = {(index === 0) ? "btn btn-lg btn-block btn-outline-primary": "btn btn-lg btn-block btn-primary"}
                             />
                         ))
                     }
