@@ -25,11 +25,7 @@ class Body extends React.Component {
                     {
                         priceCards.map((priceCard, index) => (
                             <PriceCard key = {index}
-                                title = {priceCard.title}
-                                price = {priceCard.price}
-                                unity = {priceCard.unity}
-                                items = {priceCard.items}
-                                buttonValue = {priceCard.buttonValue}
+                                {...priceCard}
                                 buttonStyle = {(index === 0) ? "btn btn-lg btn-block btn-outline-primary": "btn btn-lg btn-block btn-primary"}
                             />
                         ))

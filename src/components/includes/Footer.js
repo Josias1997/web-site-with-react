@@ -11,7 +11,7 @@ const Footer = props => {
     return (
         <footer className = "pt-4 my-md-5 pt-md-5 border-top">
             <div className = "row">
-                <Icon source = "./public/favicon.ico"/>
+                <Icon source = "/docs/4.3/assets/brand/bootstrap-solid.svg"/>
                 {
                     items.cards.map((item, index) => (
                         <SimpleCard key = {index} 
